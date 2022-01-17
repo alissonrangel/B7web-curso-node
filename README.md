@@ -1,0 +1,24 @@
+#### Comandos
+- npm init
+  -- cria o package.json iniciando o projeto
+- npm i -g typescript
+  -- instala o typescript globalmente para poder utilizá-lo em vários projetos
+- tsc --init 
+  -- cria o arquivo tsconfig.json para a configuração do typescript
+- criar as pastas src e dist
+  -- na pasta src fica os códigos typescript
+  -- na pasta dist fica os códigos compilados para ser distribuído
+- cria o arquivo index.ts dentro de src
+- configurar o typescript
+- npm i -D @types/node
+  -- acrescenta mais funcionalidades ao typescript
+  -- criou a pasta node_modules
+- tsc -w
+  -- cria o arquivo dist/index.js e monitora as alterações no projeto
+- node dist/index.js
+  -- executa o arquivo criado pelo comando acima
+- npm i validator
+- npm i --save-dev @types/validator
+- npm install -g nodemon
+  -- executa um comando específico toda vez que altero o código
+  -- nodemon dist/index.js -> toda vez que alterar o código ele executa: node dist/index.js
