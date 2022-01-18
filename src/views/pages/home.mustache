@@ -1,0 +1,28 @@
+{{>partials/header}}
+
+    {{ #showWelcome }}
+      Opa, tudo bem, {{user}}?
+    {{/showWelcome}}
+    {{#showOld}}
+      Como vai a vida?
+    {{/showOld}}
+    {{^showOld}}
+      Beleza?
+    {{/showOld}}
+    <hr/>
+
+    <ul>
+      {{#products}}
+        <li>{{title}} - R$ {{price}}</li>
+      {{/products}}
+    </ul>
+    <ul>
+      {{#frasesDoDia}}
+        <li>{{.}}</li>
+      {{/frasesDoDia}}
+      {{^frasesDoDia}}
+        Não há frases!!!
+      {{/frasesDoDia}}
+    </ul>
+  </body>
+</html>

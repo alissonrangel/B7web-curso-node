@@ -17,4 +17,4 @@ let n2 = 2;
 console.log(Matematica.somar(n1, n2));
 console.log((0, Matematica2_1.somar)(n1, n2));
 console.log(validator_1.default.isEmail('alisson@mail.xxx'));
-console.log("Alisson Rangel");
+console.log("Alves de Carvalho");
